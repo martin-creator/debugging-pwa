@@ -27,4 +27,4 @@ yarn-error.log*
 .netlify
 .vercel
 
-.idea
+.idea/
