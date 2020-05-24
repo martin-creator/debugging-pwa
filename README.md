@@ -104,15 +104,15 @@ Open Chrome on your phone and hit this URL:
 - You can sign up for ZEIT [here](https://zeit.co/). ZEIT has been re-branded to Vercel so when you hit the above URL, you will be re-directed to [https://vercel.com/](https://vercel.com/)   
 - Once the account is created, you will need `now` CLI dependency on your machine. To download that use either of the commands below.   
 
-With **yarn**
-```sh
-yarn global add now
-```
+  With **yarn**
+  ```sh
+  yarn global add now
+  ```
 
-With **npm**
-```sh
-npm i -g now
-```
+  With **npm**
+  ```sh
+  npm i -g now
+  ```
 
 ### How to deploy App on ZEIT using `now` CLI?
 Follow the steps below to deploy the app.
@@ -169,3 +169,14 @@ yarn add idb
 - On [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Worker)   
 - [HTML Spec](https://html.spec.whatwg.org/multipage/workers.html#dom-worker-postmessage)
 
+# Module 05 - Inspect and Debug for PWA Optimizations
+```sh
+git checkout module05_optimal_features
+```
+
+# Resources
+Readings that would worth while:
+- [Service Worker Specification](https://w3c.github.io/ServiceWorker/#service-worker-concept)
+- [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
+- [CacheStorage](https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage)
+- [Cache API](https://developer.mozilla.org/en-US/docs/Web/API/Cache)
